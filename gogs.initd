@@ -3,7 +3,7 @@
 
 user="${user:-gogs}"
 group="${group:-gogs}"
-pidfile="${pidfile:-/var/run/${SVCNAME}.pid}"
+pidfile="${pidfile:-/run/${SVCNAME}.pid}"
 basedir="${basedir:-/usr/share/gogs}"
 daemon="${daemon:-gogs}"
 daemon_opts="${daemon_opts:-web}"

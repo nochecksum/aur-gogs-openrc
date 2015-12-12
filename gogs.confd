@@ -25,9 +25,9 @@ customconf="${basedir}/custom/conf/app.ini"
 logfile="${logfile:-${basedir}/${SVCNAME}.log}"
 
 # Where should the PID file be saved while Gogs is running?
-# Default is "/var/run/${SVCNAME}.pid"
-# 	eg "/var/run/gogs.pid"
-pidfile="/var/run/gogs.pid"
+# Default is "/run/${SVCNAME}.pid"
+# 	eg "/run/gogs.pid"
+#pidfile="/run/gogs.pid"
 
 # How long should we wait for Gogs itself to start?
 # Expects a number (in milliseconds)
