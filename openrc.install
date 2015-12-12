@@ -1,0 +1,15 @@
+_srv="gogs"
+_runlvl="default"
+
+post_install() {
+	echo " ==> Add Gogs to system startup with 'rc-update add ${_svc} ${_runlvl}'"
+	echo " ==> Edit /etc/conf.d/gogs to change paths if required"
+}
+
+post_upgrade() {
+	post_install "$1"
+}
+
+pre_remove() {
+	echo " ==> Make sure to 'rc-update del ${_svc} ${_runlvl}'"
+}
