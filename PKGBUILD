@@ -1,4 +1,4 @@
-# Maintainer nochecksum
+# Maintainer nochecksum <nochecksum at users dot noreply dot github dot com>
 pkgname=gogs-openrc
 pkgver=20151212
 pkgrel=1
