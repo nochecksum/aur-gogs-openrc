@@ -1,7 +1,7 @@
 # Maintainer: nochecksum <nochecksum at users dot noreply dot github dot com>
 pkgname=gogs-openrc
-pkgver=20151212b
-pkgrel=2
+pkgver=20151213
+pkgrel=3
 pkgdesc="Gogs init scripts for OpenRC"
 arch=('any')
 url="https://aur.archlinux.org/packages/gogs-openrc/"
